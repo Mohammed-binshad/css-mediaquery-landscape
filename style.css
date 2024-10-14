@@ -1,0 +1,18 @@
+.box {
+    width: 250px;
+    height: 20px;
+    background-color: brown;
+    position: relative;
+    left: 15%;
+}
+@media only screen and (orientation: landscape) {
+    .box {
+        width: 20px;
+        height: 250px;
+        background-color: brown;
+        position: relative;
+        top: 35px;
+
+        left: 90%;
+    }
+}
